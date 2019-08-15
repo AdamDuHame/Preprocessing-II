@@ -1,1 +1,33 @@
 // Navigation Styles here
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    border-bottom: grey dashed 1px;
+    @media(max-width: 500px){
+        flex-direction: column;
+        align-items: center;
+    }
+
+        nav{
+            display: flex;
+            width: 40%;
+            justify-content: space-around;
+            margin-top: 1.7%;
+            @media(@breakPoint){
+                width: 80%;
+                
+            }
+            
+
+                a{
+                    text-decoration: none;
+                    font-size: 1.4rem;
+                    color: black;
+                }
+
+        }
+
+
+}
